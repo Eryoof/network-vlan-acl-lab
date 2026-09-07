@@ -10,6 +10,9 @@ The network represents a small building with two departments — **IT** and **Ma
 
 ## Topology
 
+![Network Topology](IMG_2623.jpeg)
+![VLAN and ACL Configuration](IMG_2624.jpeg)
+
 ```
         PC0        PC1
           \         /
@@ -18,7 +21,7 @@ The network represents a small building with two departments — **IT** and **Ma
            /       \
           /         \
         PC2        PC3
-```
+```.
 
 | Device | Role | VLAN | IP Address |
 |---|---|---|---|
@@ -139,7 +142,5 @@ The ACL is **stateless** — it filters based on the direction and destination o
 - Extended ACLs for targeted, host-level access control
 - Systematic connectivity testing to validate network design
 
-## Screenshots
 
-See the `/screenshots` folder for the full topology and ping test results.
 
